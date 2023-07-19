@@ -1,0 +1,144 @@
+
+
+@media screen and (max-width:460px) {
+  .nav-cont {
+    flex-direction: column;
+    padding: 20px;
+  }
+  ul {
+    flex-direction: column;
+  }
+  li {
+    margin-top:10px;
+  }
+  .icon-cont {
+    margin:20px auto;
+  }
+  .ban-cont{
+    flex-direction: column;
+    margin:10px auto;
+    align-items: center;
+}
+.banner-cont{
+    width:100%;
+}
+.banner-img{
+    width:100%;
+}
+.grid-cont{
+    display: grid;
+    max-width:1400px;
+    margin:50px auto;
+    border: 1px solid red;
+    min-height:400px;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .features{
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-foot{
+    display: grid;
+    max-width:1400px;
+    margin:50px auto;
+    border: 1px solid red;
+    min-height:200px;
+    grid-template-columns: repeat(2,1fr);
+    margin-top:150px;
+  }
+  .fe-img img {
+    width:120%;
+    height: 120%;
+    display: block;
+  }
+  .rel-img img{
+    width: 65%;
+    height: 60%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:55%;
+    right:80%;
+  }
+  .story{
+    display: grid;
+    margin:50px auto;
+    max-width:799px;
+    border: 1px solid red;
+    min-height:21px;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+  .icons{
+    display: grid;
+    margin:50px auto;
+    max-width:799px;
+    min-height:21px;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+  }
+}
+@media screen and (min-width:461px) and (max-width:1145px)
+ {
+    .nav-cont {
+        flex-direction: column;
+        padding: 50px;
+      }
+      ul {
+    flex-direction: column;
+  }
+  .icon-cont {
+    margin:20px auto;
+  }
+  li {
+    margin-top:20px;
+  }
+.ban-cont{
+    flex-direction: column;
+    padding:10px auto;
+    align-items: center;
+}
+
+.banner-img{
+    width:100%;
+}
+.grid-cont{
+    display: grid;
+    max-width:1400px;
+    margin:50px auto;
+    border: 1px solid red;
+    min-height:400px;
+    grid-template-columns: repeat(2,1fr);
+  }
+.features{
+  flex-direction: column;
+  align-items: center;
+}
+.grid-foot{
+  display: grid;
+  max-width:1400px;
+  margin:50px auto;
+  border: 1px solid red;
+  min-height:200px;
+  grid-template-columns: repeat(3,1fr);
+  margin-top:150px;
+}
+.fe-img img {
+  width:120%;
+  height: 120%;
+  display: block;
+}
+.rel-img img{
+  width: 50%;
+  height: 60%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:55%;
+  right:80%;
+}
+}
