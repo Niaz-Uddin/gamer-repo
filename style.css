@@ -275,7 +275,9 @@ padding:10px;
   border: 1px solid  #FF42A5 ;
   cursor: pointer;
 }
-
+a:hover {
+  color: #FF42A5 ;
+}
   
 
 
